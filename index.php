@@ -4,9 +4,12 @@
 
 
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="fr">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="PPE">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title><?php print titre ?></title>
 	
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -39,8 +42,8 @@
 							include_once("./template/contact.html");
 						}
 						else if($root>3 || $root==0){
-							//echo '<p class="warning"><i class="far fa-frown"></i>La page demandée n\'existe pas!!</p>';
-							header("HTTP/1.0 404 Not Found");
+							echo '<p class="warning"><i class="far fa-frown"></i>La page demandée n\'existe pas!!</p>';
+							//header("HTTP/1.0 404 Not Found");
 						}
 
 				}
@@ -50,5 +53,8 @@
 
 			?>
 	</main>
+	<?php
+	include_once("./template/footer.html");
+	?>
 </body>
-</html>
+</html>	

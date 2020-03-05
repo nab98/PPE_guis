@@ -30,6 +30,8 @@ body{
 	p{
 		line-height: 22px;
 	}
+	/*1 rem = 16px * 62.5*/
+
 
 /*thème********/
 ul li{
