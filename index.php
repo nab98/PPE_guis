@@ -2,6 +2,7 @@
 	const titre ="EDW école pour les métiers du web";
 ?>
 
+
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -38,16 +39,16 @@
 							include_once("./template/contact.html");
 						}
 						else if($root>3 || $root==0){
-							echo '<p class="warning"><i class="far fa-frown"></i> La page demandée n\'existe pas!!</p>';
-							//header("HTTP/1.0 404 Not Found");
+							//echo '<p class="warning"><i class="far fa-frown"></i>La page demandée n\'existe pas!!</p>';
+							header("HTTP/1.0 404 Not Found");
 						}
 
 				}
 					else{
-						include("./template/index.html");
+						include_once("./template/index.html");
 					}
 
 			?>
-	</div>
+	</main>
 </body>
 </html>
