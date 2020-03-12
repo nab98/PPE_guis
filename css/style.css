@@ -15,7 +15,7 @@ body{
 			margin:0;
 	}
 		main{
-			width:1024px;
+			max-width:  124rem;
 			margin:0 auto;
 	}
 	ul{
