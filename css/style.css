@@ -139,7 +139,7 @@ section ul li::before{
 	color: #448AFF;
 }
 
-section input, section label, section textarea{
+section input, section label{
 	display: block;
 	width: 100%;
 	padding: .8rem;
@@ -153,20 +153,17 @@ section [placeholder]{
 	font-size: 2rem;
 	font-style: italic;
 	transition-duration: 0.5s;
+	color: rgb(25, 0, 167);
 }
 section [placeholder]:focus{
-	background: #FFCDD2;
-}
-section textarea{
-	border: solid 0.2rem #ccc;
-	resize: none;
+	background: rgb(253, 253, 253);
 }
 section input[type="submit"]{
 	border:0;
 	margin-top:5px;
 	font-size: 2rem;
 	width: 100px;
-	background: #558B2F;
+	background: rgb(22, 143, 73);
 	color: #fafafa;
 	cursor: pointer;
 	transition-duration: 0.5s;
