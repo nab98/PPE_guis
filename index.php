@@ -33,6 +33,7 @@
 						}
 						if($root==3){
 							include_once("./template/contact.inc.php");
+							include_once("./connect.php");
 						}
 						else if($root>3 || $root==0){
 							echo '<p class="warning"><i class="far fa-frown"></i>La page demandée n\'existe pas!!</p>';

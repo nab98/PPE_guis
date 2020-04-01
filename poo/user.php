@@ -5,17 +5,27 @@
 
 	*/
 		class User{
-			public $firstName;
-			public $lastname;
-			public $age;
+			public $cursus;
+			public $campus;
+			public $niveau;
+			public $formation;
+			public $nom;
+			public $prenom;
+			public $mail;
+			public $telephone;
+			public $etude;
 
 			//constructeur
-			public function __construct($firstName,$lastname){
-					print "hello je suis le constructeur<br>";
-					print " ".$firstName." ".$lastname."<br>";
-                    
+			public function __construct($cursus, $campus,$niveau, $formation, $nom, $prenom, $mail, $telephone, $etude){
 					$this->firstName = $firstName;
-					$this->lastname = $lastname;
+					$this->campus= $campus;
+					$this->niveau = $niveau;
+					$this->formation = $formation;
+					$this->nom = $nom;
+					$this->prenom = $prenom;
+					$this->mail = $mail;
+					$this->telephone = $telephone;
+					$this->etude = $etude;
 
 
 			}
