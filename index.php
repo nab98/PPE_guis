@@ -1,6 +1,7 @@
 <?php
-	const titre ="EDW école pour les métiers du web";
+	const titre ="M2L Maison de Ligues de Lorraine";
 ?>
+
 
 
 <!DOCTYPE HTML>
